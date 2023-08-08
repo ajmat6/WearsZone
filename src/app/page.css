@@ -1,0 +1,12 @@
+.navbaar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+  
+.navbaar ul li {
+margin: 0 24px;
+list-style: none;
+font-weight: bold;
+}
