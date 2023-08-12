@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Head from 'next/head' // helps to inject title meta tags etc to the head
+import Link from 'next/link'
 import './page.css'
 
 export default function Home() {
@@ -11,10 +12,10 @@ export default function Home() {
 
       <div className='navbaar'>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Blogs</li>
+          <Link href='/'><li>Home</li></Link>
+          <Link href='/about'><li>About</li></Link>
+          <Link href='/contact'><li>Contact</li></Link>
+          <Link href='/myblogs'><li>Blogs</li></Link>
         </ul>
       </div>
 
