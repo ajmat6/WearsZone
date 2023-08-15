@@ -1,11 +1,10 @@
 import React from 'react'
-import Head from 'next/head'
-import '../globals.css'
+"use-client" // used for style jsx
 
 function About() {
   return (
     <div>
-      <p>Hello my name is Ajmat Kathat</p>
+      <p className='ajmat'>Hello my name is Ajmat Kathat</p>
       <button>First Nextjs file based routing</button>
     </div>
   )

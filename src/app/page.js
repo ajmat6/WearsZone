@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import Head from 'next/head' // helps to inject title meta tags etc to the head
 import Link from 'next/link'
-import './page.css'
+import './styles/home.css'
+import  './styles/home2.css'
 
 export default function Home() {
   return (
